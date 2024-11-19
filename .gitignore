@@ -1,7 +1,5 @@
 node_modules
 .env.local
 /.next
-yarn.lock
-package-lock.json
-.eslintrc.json
+eslintrc.json
 .gitattributes
