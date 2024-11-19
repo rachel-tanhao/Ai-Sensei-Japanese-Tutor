@@ -46,16 +46,5 @@
       }
     }
   ],
-  "extends": [
-    "eslint:recommended",
-    "plugin:prettier/recommended"
-  ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
-  "editor.formatOnSave": true
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"]
 }
