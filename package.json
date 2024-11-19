@@ -4,9 +4,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "yarn dev",
-    "build": "yarn build",
-    "start": "yarn start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint . --ext .js,.jsx"
   },
   "dependencies": {
