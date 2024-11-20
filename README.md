@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Sensei - Your 24/7 Japanese Language Tutor 🌸 🍵
 
-## Getting Started
+<div align="center">
+  <h3>Learn Japanese with an AI-powered 3D teacher that adapts to your learning style!</h3>
+</div>
 
-First, run the development server:
+<div align="center">
+  <img src="public/images/AiSensei.jpg" alt="DEMO" width="450"/>
+</div>
 
+
+**AI Sensei** is an innovative Next.js application that combines AI technology with immersive 3D visualization to create a unique Japanese language learning experience. Whether you're a beginner or advanced learner, AI Sensei provides real-time translations, grammar breakdowns, and pronunciation guidance with a personalized touch. 📚
+
+
+🍣 Check out the app in action: [**AI Sensei - Live Demo**](https://ai-sensei-japanese-tutor-u27615.vm.elestio.app/) 
+
+
+## ✨ Key Features
+
+- **Interactive 3D Teachers**: Choose between different 3D teacher models with unique voice and personalities 🧚
+- **Real-time AI Translation**: Powered by OpenAI's GPT for accurate translations and explanations 🔍
+- **Text-to-Speech**: Native Japanese pronunciation using Azure's Speech Services 💬
+- **Grammar Breakdown**: Detailed analysis of sentence structure and usage 👩🏻‍🏫
+- **Dual Learning Modes**: Switch between formal and casual Japanese 🌊
+- **Furigana Support**: Optional reading aids for kanji characters 🪄
+
+## 🛠️ Technology Stack
+
+- **Frontend**: Next.js 14, React Three Fiber, Drei
+- **3D Rendering**: Three.js
+- **AI Integration**: OpenAI GPT-3.5
+- **Speech Synthesis**: Microsoft Cognitive Services
+- **State Management**: Zustand
+- **Styling**: Tailwind CSS
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm/yarn/pnpm
+- OpenAI API Key
+- Azure Speech Services Key
+
+### Installation
+
+1. **Clone the repository**:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/ai-sensei.git
+cd ai-sensei
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. **🔔 IMPORTANT: Set up your own environment variables**:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file at the root directory:
+```env
+OPENAI_API_KEY=your_openai_key
+SPEECH_KEY=your_azure_speech_key
+SPEECH_REGION=your_azure_region
+```
 
-## Learn More
+4. **Start the development server**:
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Visit `http://localhost:3000` to see the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The main interface consists of:
 
-## Deploy on Vercel
+1. **Teacher Selection**: Choose between Nanami and Naoki as your virtual sensei
+2. **Classroom Environment**: Select between default and alternative classroom settings
+3. **Learning Mode**: Toggle between formal and casual Japanese
+4. **Input Box**: Type any English phrase you want to learn in Japanese
+5. **Grammar Board**: View detailed breakdowns of sentence structure
+6. **Pronunciation**: Listen to native pronunciation with lip-sync animation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Key components:
+
+- **Experience.jsx**: Main 3D scene setup and rendering
+- **Teacher.jsx**: 3D teacher model with animations and lip-sync
+- **MessagesList.jsx**: Displays conversation history and grammar explanations
+- **TypingBox.jsx**: User input interface
+- **useAITeacher.js**: Central state management with Zustand
+
+## 🔒 Environment Variables
+
+Required environment variables:
+```env
+OPENAI_API_KEY=your_openai_api_key
+SPEECH_KEY=your_azure_speech_key
+SPEECH_REGION=your_azure_region
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- OpenAI for GPT integration
+- Microsoft Azure for Speech Services
+- Three.js community for 3D rendering support
+- Next.js team for the framework
