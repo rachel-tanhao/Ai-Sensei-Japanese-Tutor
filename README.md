@@ -5,14 +5,18 @@
 </div>
 
 <div align="center">
-  <img src="public/images/AiSensei.jpg" alt="DEMO" width="450"/>
+  <img src="public/images/AiSensei.jpg" alt="DEMO" width="550"/>
 </div>
 
 
 **AI Sensei** is an innovative Next.js application that combines AI technology with immersive 3D visualization to create a unique Japanese language learning experience. Whether you're a beginner or advanced learner, AI Sensei provides real-time translations, grammar breakdowns, and pronunciation guidance with a personalized touch. 📚
 
 
-🍣 Check out the app in action: [**AI Sensei - Live Demo**](https://ai-sensei-japanese-tutor-u27615.vm.elestio.app/) 
+<p align="center">
+  🍣 <a href="https://ai-sensei-japanese-tutor-u27615.vm.elestio.app/"><strong>AI Sensei - Live Demo</strong></a>
+</p>
+
+
 
 
 ## ✨ Key Features
