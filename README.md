@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  🍣 <a href="https://ai-sensei-japanese-tutor-u27615.vm.elestio.app/"><strong>AI Sensei - Live Demo</strong></a>
+  📍 <a href="https://ai-sensei-japanese-tutor-u27615.vm.elestio.app/"><strong>AI Sensei - Live Demo</strong></a> 📍
 </p>
 
 
